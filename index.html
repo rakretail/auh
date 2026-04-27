@@ -2086,17 +2086,17 @@ function updateInsights(monthlyCounts, dailyTotal) {
     messages.push(`✨ ${quotes[Math.floor(Math.random() * quotes.length)]}`);
 
     // ---------- Manager wisdom (kept, lightly polished) ----------
-    const ABOUHASHME = [
-        `🧠 <span class="feed-pill gold">ABOUHASHME'S RULE</span> "If a customer smiles, they've basically bought a bathroom set." 🛁`,
-        `☕ <span class="feed-pill gold">ABOUHASHME SAYS</span> "The dashboard is green, but my tea is cold. More sales please!"`,
-        `🪑 <span class="feed-pill gold">ABOUHASHME SAYS</span> "If you have time to sit, you have time to sell."`,
-        `🚨 <span class="feed-pill red">ABOUHASHME ALERT</span> "Someone just walked in. Why are we still breathing normally?"`,
-        `🧾 <span class="feed-pill gold">ABOUHASHME SAYS</span> "Every 'just looking' is a future invoice. Act accordingly."`,
-        `💼 <span class="feed-pill gold">ABOUHASHME'S RULE</span> "If they ask for a discount, increase your confidence."`,
-        `🏠 <span class="feed-pill gold">ABOUHASHME SAYS</span> "Don't show tiles… show them their dream home."`,
-        `👃 <span class="feed-pill gold">ABOUHASHME SENSES</span> "I can smell a big sale from the parking lot. Get ready!" 💰`
+    const ABOUHASHEM = [
+        `🧠 <span class="feed-pill gold">ABOUHASHEM'S RULE</span> "If a customer smiles, they've basically bought a bathroom set." 🛁`,
+        `☕ <span class="feed-pill gold">ABOUHASHEM SAYS</span> "The dashboard is green, but my tea is cold. More sales please!"`,
+        `🪑 <span class="feed-pill gold">ABOUHASHEM SAYS</span> "If you have time to sit, you have time to sell."`,
+        `🚨 <span class="feed-pill red">ABOUHASHEM ALERT</span> "Someone just walked in. Why are we still breathing normally?"`,
+        `🧾 <span class="feed-pill gold">ABOUHASHEM SAYS</span> "Every 'just looking' is a future invoice. Act accordingly."`,
+        `💼 <span class="feed-pill gold">ABOUHASHEM'S RULE</span> "If they ask for a discount, increase your confidence."`,
+        `🏠 <span class="feed-pill gold">ABOUHASHEM SAYS</span> "Don't show tiles… show them their dream home."`,
+        `👃 <span class="feed-pill gold">ABOUHASHEM SENSES</span> "I can smell a big sale from the parking lot. Get ready!" 💰`
     ];
-    messages.push(ABOUHASHME[Math.floor(Math.random() * ABOUHASHME.length)]);
+    messages.push(ABOUHASHEM[Math.floor(Math.random() * ABOUHASHEM.length)]);
 
     // ---------- Milestones ----------
     const monthlyTotal = Object.values(monthlyCounts).reduce((a, b) => a + b, 0);
